@@ -1,0 +1,40 @@
+h1 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+a, a:visited {
+    text-decoration: black;
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: rgb(178, 237, 245);
+    border: 2px solid #69b9ec;
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+
+li {
+    /*background-color: */
+    padding: 5px;
+}
+li:hover {
+    background-color: #0075be;
+}
+
+b {
+    font-size: large;
+}
+
